@@ -41,6 +41,13 @@ else if (url.StartsWith("/echo/"))
     string response = $"HTTP/1.1 200 OK\r\nContent-Type: text/plain\r\nContent-Length: {message.Length}\r\n\r\n" + message;
     responseBytes = Encoding.UTF8.GetBytes(response);
 }
+else if (url.StartsWith("/user-agent"))
+{
+
+    string userAgent = splitted[2].Split(": ")[1];
+    string response =  $"HTTP/1.1 200 OK\r\nContent-Type: text/plain\r\nContent-Length: {userAgent.Length}\r\n\r\n" + userAgent;
+     responseBytes = Encoding.UTF8.GetBytes(response);
+}
 else
 {
     string response = "HTTP/1.1 404 Not Found\r\n\r\n";

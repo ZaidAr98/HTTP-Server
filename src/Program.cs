@@ -57,6 +57,24 @@ public class Program
                 string response = $"HTTP/1.1 200 OK\r\nContent-Type: text/plain\r\nContent-Length: {userAgent.Length}\r\n\r\n" + userAgent;
                 responseBytes = Encoding.UTF8.GetBytes(response);
             }
+            else if (route.StartsWith("/files/"))
+            {
+                try
+                {
+                    string fileName = route.Substring(7, route.Length - 7);
+                    string fullPath = Path.Combine(Directory.GetCurrentDirectory(), fileName);
+                    using StreamReader reader = new StreamReader(fullPath);
+                    string fileContent = reader.ReadToEnd();
+                    string response = $"HTTP/1.1 200 OK\r\nContent-Type: application/octet-stream\r\nContent-Length: {fileContent.Length}\r\n\r\n{fileContent}";
+                    responseBytes = Encoding.UTF8.GetBytes(response);
+                }
+                catch (Exception ex)
+                {
+                    Console.WriteLine(ex.Message);
+                    string response = "HTTP/1.1 404 Not Found\r\n\r\n";
+                    responseBytes = Encoding.UTF8.GetBytes(response);
+                }
+            }
             else
             {
                 string response = "HTTP/1.1 404 Not Found\r\n\r\n";

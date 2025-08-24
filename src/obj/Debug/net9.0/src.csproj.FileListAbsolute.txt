@@ -13,3 +13,17 @@ C:\Users\zaidh\OneDrive\Desktop\Build-your-own-HTTP-Server\src\obj\Debug\net9.0\
 C:\Users\zaidh\OneDrive\Desktop\Build-your-own-HTTP-Server\src\obj\Debug\net9.0\src.genruntimeconfig.cache
 C:\Users\zaidh\OneDrive\Desktop\Build-your-own-HTTP-Server\src\obj\Debug\net9.0\ref\src.dll
 C:\Users\zaidh\OneDrive\Desktop\Build-your-own-HTTP-Server\src\obj\Debug\net9.0\src.sourcelink.json
+C:\Users\zaidh\OneDrive\Desktop\Build-your-own-HTTP-Server\src\bin\Debug\net9.0\MediatR.dll
+C:\Users\zaidh\OneDrive\Desktop\Build-your-own-HTTP-Server\src\bin\Debug\net9.0\MediatR.Contracts.dll
+C:\Users\zaidh\OneDrive\Desktop\Build-your-own-HTTP-Server\src\bin\Debug\net9.0\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\zaidh\OneDrive\Desktop\Build-your-own-HTTP-Server\src\bin\Debug\net9.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\zaidh\OneDrive\Desktop\Build-your-own-HTTP-Server\src\bin\Debug\net9.0\Microsoft.Extensions.Logging.dll
+C:\Users\zaidh\OneDrive\Desktop\Build-your-own-HTTP-Server\src\bin\Debug\net9.0\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\zaidh\OneDrive\Desktop\Build-your-own-HTTP-Server\src\bin\Debug\net9.0\Microsoft.Extensions.Options.dll
+C:\Users\zaidh\OneDrive\Desktop\Build-your-own-HTTP-Server\src\bin\Debug\net9.0\Microsoft.Extensions.Primitives.dll
+C:\Users\zaidh\OneDrive\Desktop\Build-your-own-HTTP-Server\src\bin\Debug\net9.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\zaidh\OneDrive\Desktop\Build-your-own-HTTP-Server\src\bin\Debug\net9.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\zaidh\OneDrive\Desktop\Build-your-own-HTTP-Server\src\bin\Debug\net9.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\zaidh\OneDrive\Desktop\Build-your-own-HTTP-Server\src\bin\Debug\net9.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\zaidh\OneDrive\Desktop\Build-your-own-HTTP-Server\src\obj\Debug\net9.0\src.csproj.AssemblyReference.cache
+C:\Users\zaidh\OneDrive\Desktop\Build-your-own-HTTP-Server\src\obj\Debug\net9.0\src.csproj.Up2Date

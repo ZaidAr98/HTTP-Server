@@ -12,3 +12,4 @@ C:\Users\zaidh\OneDrive\Desktop\Build-your-own-HTTP-Server\src\obj\Debug\net9.0\
 C:\Users\zaidh\OneDrive\Desktop\Build-your-own-HTTP-Server\src\obj\Debug\net9.0\src.pdb
 C:\Users\zaidh\OneDrive\Desktop\Build-your-own-HTTP-Server\src\obj\Debug\net9.0\src.genruntimeconfig.cache
 C:\Users\zaidh\OneDrive\Desktop\Build-your-own-HTTP-Server\src\obj\Debug\net9.0\ref\src.dll
+C:\Users\zaidh\OneDrive\Desktop\Build-your-own-HTTP-Server\src\obj\Debug\net9.0\src.sourcelink.json

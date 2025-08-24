@@ -35,6 +35,12 @@ if (url == "/")
     string response = "HTTP/1.1 200 OK\r\n\r\n";
     responseBytes = Encoding.UTF8.GetBytes(response);
 }
+else if (url.StartsWith("/echo/"))
+{
+    string message = url.Substring(6, url.Length - 6);
+    string response = "HTTP/1.1 200 OK\r\n\r\n" + message;
+    responseBytes = Encoding.UTF8.GetBytes(response);
+}
 else
 {
     string response = "HTTP/1.1 404 Not Found\r\n\r\n";
